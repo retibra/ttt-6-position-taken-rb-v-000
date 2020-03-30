@@ -8,6 +8,6 @@ def position_taken?(board, index_number)
   #   taken = false
   # end
   # taken
-  (board[index_number]) == "X" || board[index_number] == "O") ? 
+  (board[index_number]) == "X" || board[index_number] == "O") ?
     true : false
 end
